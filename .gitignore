@@ -1,0 +1,10 @@
+build/
+build-wolf/
+libwolf/
+*.nro
+*.elf
+*.nacp
+*.o
+*.d
+*.map
+*.lst
