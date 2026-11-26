@@ -20,7 +20,7 @@ Switch doesn't let homebrew use ports below 1024.
    with `sdmc:/switch/sshd/sshd.nro` and `sdmc:/switch/sshd/authorized_keys`.
 2. On your PC, make a key if you don't have one:
    ```
-   ssh-keygen -t ed25519
+   ssh-keygen -t ecdsa
    ```
 3. Paste the whole contents of your public key file into
    `sdmc:/switch/sshd/authorized_keys`, as a new line under the comments. That's
